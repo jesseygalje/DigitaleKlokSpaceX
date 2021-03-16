@@ -1,0 +1,60 @@
+body {
+    background-image: url("image/mars.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    /* background-size: 100%; */
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    font-size: 6vh;
+}
+
+.logo {
+    text-align: center;
+}
+
+.spacexlogo {
+    width: 50%;
+}
+
+#dagdeelimg {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#seizoenimg {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.tijden {
+    text-align: center;
+}
+
+/* .tijd {
+    background-image: url("image/middag.jpg");
+} */
+
+.tijd, .datum {
+    background-size: 100%;
+    height: 100%;
+
+}
+
+/* h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* h2 {
+    position: absolute;
+    margin-left: 41.5vw;
+    font-size: 4vh;
+} */

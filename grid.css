@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+
+    grid-template-areas: 
+    "logo"
+    "titel"
+    "kloktijd"
+    "datum"
+    ;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.titel {
+    grid-area: titel;
+}
+
+.tijd {
+    grid-area: kloktijd;
+}
+
+.datum {
+    grid-area: datum;
+}
