@@ -35,7 +35,7 @@ h1 {
     height:auto;
 }
 
-.tijden {
+.tijd, .dagen {
     text-align: center;
 }
 
@@ -81,21 +81,42 @@ h2#klokdatum{
     font-size: 4vh;
 } */
 
-@media screen  and (min-width: 660px) /*Tablet*/ {
-    #seizoenimg {
-        float: left;
-        margin-left: 5%;
-    }
-    
+@media screen  and (min-width: 660px) and (max-width: 1170px) /*Tablet*/ {
     h2#klokdag {
-        float: left;
-        margin-left: 26vw;
+        margin-right: 26vw;
         margin-top: -30vw;
+        font-size: 5vw;
     }
 
     h2#klokdatum {
-        float: right;
-        margin-right: 26vw;
-        margin-top: -29vw;
+        margin-left: 26vw;
+        margin-top: -5vw;
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (min-width: 1170px) and (max-width: 1700px) {
+    #dagdeelimg {
+        width: 45vw;
+        height: 30vw;
+    }
+
+    #seizoenimg {
+        width: 45vw;
+        height: 30vw;
+    }
+
+    h2#kloktijd {
+        margin-top: -18vw;
+    }
+
+    h2#klokdag {
+        font-size: 3.5vw;
+        margin-right: 20vw;
+    }
+
+    h2#klokdatum {
+        font-size: 3.5vw;
+        margin-left: 20vw;
     }
 }

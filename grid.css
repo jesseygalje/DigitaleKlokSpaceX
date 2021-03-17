@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 3vw;
     grid-template-columns: 1fr;
 
     grid-template-areas: 
@@ -23,10 +23,34 @@
     grid-area: kloktijd;
 }
 
-.datum {
+.dagen {
     grid-area: datum;
 }
 
 @media screen  and (min-width: 660px) /*Tablet*/ {
+    .grid-container {
+        display: grid;
+        grid-gap: 3vw;
+        grid-template-columns: 1fr;
+    
+        grid-template-areas: 
+        "logo"
+        "titel"
+        "kloktijd"
+        "datum"
+        ;
+    }    
+}
 
+@media screen and (min-width: 1170px) {
+    .grid-container {
+        display: grid;
+        grid-gap: 3vw;
+        grid-template-columns: 1fr;
+    
+        grid-template-areas: 
+        "logo titel"
+        "kloktijd datum"
+        ;
+    }
 }
