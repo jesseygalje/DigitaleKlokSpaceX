@@ -21,7 +21,7 @@ if (seizoenen <= 2) {
 } else if (seizoenen > 2 && seizoenen <= 5) {
     document.getElementById("seizoenimg").src = "image/lente.jpg";
 } else if (seizoenen > 5 && seizoenen <= 8) {
-    document.getElementById("seizoenimg").src = "image/zomer.jpg)";
+    document.getElementById("seizoenimg").src = "image/zomer.jpg";
 } else {
     document.getElementById("seizoenimg").src = "image/herfst.jpg";
 }

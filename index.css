@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     /* background-size: 100%; */
     margin: 0 auto;
+    margin-top: 2vw;
 }
 
 h1 {
@@ -21,6 +22,8 @@ h1 {
 
 .spacexlogo {
     width: 50%;
+    height: 10vw;
+    margin-top: -2vw;
 }
 
 #dagdeelimg {
