@@ -2,7 +2,7 @@ body {
     background-image: url("image/mars.jpg");
     background-color: black;
     background-repeat: no-repeat;
-    background-position: fixed;
+    background-attachment: fixed;
     /* background-size: 100%; */
     margin: 0 auto;
 }
@@ -11,7 +11,7 @@ h1 {
     color: white;
     text-align: center;
     margin-top: 0;
-    font-size: 6vh;
+    font-size: 6vw;
 }
 
 .logo {
@@ -24,27 +24,49 @@ h1 {
 
 #dagdeelimg {
     width: 90%;
-    margin-left: 5%;
+    z-index:0;
+    /* margin-bottom: 18vw; */
 }
 
 #seizoenimg {
     width: 90%;
-    margin-left: 5%;
+    z-index:0;
+    /* margin-top: 13vw; */
+    height:auto;
 }
 
 .tijden {
     text-align: center;
 }
 
+h2#kloktijd{
+    z-index: 1;
+    color:black;
+    margin-top: -23vw;
+    margin-bottom: 20vw;
+    font-size: 5vw;
+    text-shadow: 1px 1px 5px gray;
+}
+
+h2#klokdag{
+    z-index:1;
+    color:black;
+    margin-top: -32vw;
+    margin-bottom: -2vw;
+    font-size: 5vw;
+    text-shadow: 1px 1px 5px gray;
+}
+
+h2#klokdatum{
+    z-index:1;
+    color:black;
+    font-size: 4vw;
+    text-shadow: 1px 1px 5px gray;
+}
+
 /* .tijd {
     background-image: url("image/middag.jpg");
 } */
-
-.tijd, .datum {
-    background-size: 100%;
-    height: 100%;
-
-}
 
 /* h2 {
     position: absolute;
@@ -58,3 +80,22 @@ h1 {
     margin-left: 41.5vw;
     font-size: 4vh;
 } */
+
+@media screen  and (min-width: 660px) /*Tablet*/ {
+    #seizoenimg {
+        float: left;
+        margin-left: 5%;
+    }
+    
+    h2#klokdag {
+        float: left;
+        margin-left: 26vw;
+        margin-top: -30vw;
+    }
+
+    h2#klokdatum {
+        float: right;
+        margin-right: 26vw;
+        margin-top: -29vw;
+    }
+}
