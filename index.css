@@ -95,7 +95,7 @@ h2#klokdatum{
     }
 }
 
-@media screen and (min-width: 1170px) and (max-width: 1700px) {
+@media screen and (min-width: 1170px) {
     h1 {
         font-size: 4vw;
         text-align: left;
@@ -123,13 +123,17 @@ h2#klokdatum{
 
     h2#klokdag {
         font-size: 3.5vw;
-        margin-right: 25vw;
+        margin-right: 24vw;
         margin-top: -17vw;
     }
 
     h2#klokdatum {
         font-size: 3.5vw;
-        margin-left: 15vw;
+        margin-left: 16vw;
         margin-top: -4vw;
     }
+}
+
+@media screen and (min-width: 1800px) {
+    
 }
