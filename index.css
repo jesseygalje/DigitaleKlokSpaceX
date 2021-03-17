@@ -96,6 +96,16 @@ h2#klokdatum{
 }
 
 @media screen and (min-width: 1170px) and (max-width: 1700px) {
+    h1 {
+        font-size: 4vw;
+        text-align: left;
+    }
+    
+    .logo {
+        text-align: right;
+    }
+
+
     #dagdeelimg {
         width: 45vw;
         height: 30vw;
@@ -104,6 +114,7 @@ h2#klokdatum{
     #seizoenimg {
         width: 45vw;
         height: 30vw;
+        margin-right: 2vw;
     }
 
     h2#kloktijd {
@@ -112,11 +123,13 @@ h2#klokdatum{
 
     h2#klokdag {
         font-size: 3.5vw;
-        margin-right: 20vw;
+        margin-right: 25vw;
+        margin-top: -17vw;
     }
 
     h2#klokdatum {
         font-size: 3.5vw;
-        margin-left: 20vw;
+        margin-left: 15vw;
+        margin-top: -4vw;
     }
 }
