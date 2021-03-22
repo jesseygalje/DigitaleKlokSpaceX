@@ -44,8 +44,9 @@ function addLeadingZero(number) {
 
 var seconds = addLeadingZero(moment.getSeconds());
 var minutes = addLeadingZero(moment.getMinutes());
+var hours = addLeadingZero(moment.getHours());
 
-document.getElementById('kloktijd').innerHTML = moment.getHours() + ':' + minutes + ':' + seconds;
+document.getElementById('kloktijd').innerHTML = hours + ':' + minutes + ':' + seconds;
 document.getElementById('kloktijd').style.textAlign = "center";
 }
 
